@@ -1,0 +1,76 @@
+-> create backend directory 
+
+-> go inside the directory 
+
+-> perform below command to create node project 
+
+    #npm init -y 
+
+-> now, next we need to install express (framework) and dotenv 
+
+    #npm install express dotenv
+
+-> take key from Gemini AI 
+
+    create .env file and paste your key 
+
+-> take Api key from strip for payment 
+
+    paste key in .env file 
+
+-> now, we have to install langchain library in backend project 
+
+    #npm install @langchain/core
+
+    #npm install @langchain/google-genai
+
+-> now, we need to install cors 
+--------------------------------------------
+what is cors ? : 
+
+    cross origin resource sharing 
+
+    it is a security rule in browser 
+    it controls which frontend can access your backend 
+
+    e.g.  frontend running on : http://localhost:3000  (react)
+          backend running on : http://localhost:5000  (node)
+
+    so, browser says : both are coming from different origin (different ports)
+        so, i will not allow and block for the security purpose. 
+
+    at that time using of cors 
+    it allows frontend to connect with backend 
+
+    so, we have to install cors 
+
+    #npm install cors 
+
+--------------------------------------------
+mongoose : it is a library which helps node.js to talk with mongo db database.
+
+    in simple language we can say that mongoose is a bridge between node and mongodb.
+
+    #npm install mongoose 
+
+--------------------------------------------
+install mongo db atlas community 
+
+===========================================
+FRONTEND ::: 
+
+create project in react 
+
+# npx create-react-app frontend 
+
+    npx comes with npm, no global install needed
+    frontend is your project folder name
+
+    OR 
+
+# npm create vite@latest frontend
+
+    note : Vite is faster and lightweight than CRA
+
+# cd project
+# npm run dev 
