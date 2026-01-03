@@ -1,0 +1,67 @@
+What is Agentic AI ? 
+-------------------------------
+Agentic AI means an AI that can act like an agent(helper) 
+insted of just giving answers. 
+
+Normal AI : Only replies to your questions.
+Agentic AI : Thinks -> plans -> takes actions -> gives results 
+
+--------------------------------------
+Real world example ::: 
+
+******************************************
+Normal AI or Chat bot
+
+user questions : How to book a train ticket ? 
+AI : explain steps only 
+
+******************************************
+Agentic AI : 
+
+user questions : Book me cheapest train tickets for tomorrow
+
+Agentic AI will ::: 
+
+    1) think what info do i need ? 
+    2) search train data 
+    3) compare prices 
+    4) choose best options 
+    5) give you the best result 
+
+**********************************************
+what is LLM ?  Large Language Model 
+
+It is a type of AI that understands and generate human language. 
+
+what can an LLM DO ? 
+
+-> answers questions 
+-> explain concepts 
+-> write code 
+-> summarized text 
+-> translate language 
+-> chat like a human 
+
+what LLM cannot do Alone ? 
+
+-> cannot take actions 
+-> cannot call APIs 
+-> cannot think about goals 
+-> cannot work independently
+
+it only depends and responds to input. 
+
+***********************************************
+LLM Vs Agentic AI 
+
+LLM                                 Agentic AI 
+
+brain                               brain + hands 
+talks                               acts 
+answers                             complete tasks
+no planing                          planing + actions 
+
+***********************************************
+
+
+
