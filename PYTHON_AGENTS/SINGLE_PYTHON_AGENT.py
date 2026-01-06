@@ -40,10 +40,12 @@ https://6955f8b0b9b81bad7af1d95c.mockapi.io/api/users
 """
 import requests    # pip install requests
 import google.generativeai as genai  #pip install google-generativeai
-
+from dotenv import load_dotenv
+import os 
 #---------step 1 ::: GEMNI API KEY 
-GEMINI_API_KEY = "AIzaSyAV2Nt12m35bWwZ55HZH7_D2CpfAb4iL_w"
-genai.configure(api_key=GEMINI_API_KEY)   # configure this key 
+load_dotenv() 
+my_api_key = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=my_api_key)   # configure this key 
 
 
 #---------step 2 ::: Auto detect working model for gemini model 

@@ -62,6 +62,33 @@ answers                             complete tasks
 no planing                          planing + actions 
 
 ***********************************************
+How LLM works inside Agentic AI 
+
+    -> LLM is a brain of Agentic ai 
+    -> Agentic AI handle action part 
+
+e.g.   "schedule my meeting tomorrow"
+
+    LLM prepare steps what to do :
+
+        -> check calender 
+        -> free slot (available slot)
+        -> choose best time 
+        -> book meeting 
+
+    Agentic AI Executes steps 
+
+        -> call calender API 
+        -> check free slots 
+        -> Books meeting 
 
 
+------------------------------------
+AGENTIC AI WORKS LIKE 
 
+
+LLM -> Create plans -> Execute  -> Observe -> LLM -> Adjust -> Execute 
+
+Observe = Look at what happened after taking an action
+        e.g.  Did API return flights?    
+Adjust = Change the plan based on observation
