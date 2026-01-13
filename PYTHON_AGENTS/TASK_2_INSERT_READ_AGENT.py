@@ -58,8 +58,20 @@ def context_builder(user_records):
 
 # LLM Call --------------
 def llm_decide_action(user_question):
-    response = model.generate_content(user_question)
-    return response.text 
+    decision_prompt = f""" 
+            you are an AI controller 
+            decide the correct action 
+
+            there are below actions are available 
+
+            READ_USERS 
+            INSERT_USERS 
+
+            user question : {user_question} respond with only one action name : 
+    """
+    response = model.generate_content(decision_prompt)
+
+    return response.text.strip()
 
 
 # collect new records for user
@@ -80,12 +92,12 @@ def agentic_ai(user_question):
     # first we have to decide action 
     action = llm_decide_action(user_question)
 
-    if action == "insert":
+    if action == "INSERT_USERS":
         new_user = collect_new_record()
         insertUserRecord(new_user)
         return f"Successfully record added !!"
     
-    elif action == "read":
+    elif action == "READ_USERS":
         users = fetchUserRecord() 
         context = context_builder(users)
 
