@@ -1,0 +1,227 @@
+
+
+# 🚀 Generative AI + Agentic AI Curriculum (From Zero to Advanced)
+
+This roadmap is designed for **Python learners** (you already have Python experience 👍), and focuses on **hands-on projects**, not just theory.
+
+---
+
+## 🧩 PHASE 0: Prerequisites (Quick Foundation)
+
+*(Fast recap – no heavy theory)*
+
+### Topics
+
+* Python essentials for AI
+* Virtual environments
+* APIs & JSON basics
+* Basic Git & project structure
+
+### Mini Project
+
+✅ **API Data Fetcher**
+
+* Fetch data from a public API
+* Clean and display output in terminal
+
+---
+
+## 🧠 PHASE 1: AI Fundamentals (Zero Level)
+
+### Topics
+
+* What is AI, ML, Deep Learning (simple difference)
+* What is **Generative AI**
+* Rule-based AI vs Generative AI
+* Tokens, prompts, models (easy analogy)
+
+### Mini Project
+
+✅ **Rule-Based Chatbot**
+
+* If/else based chatbot
+* Understand why it’s *not* GenAI
+
+---
+
+## 🤖 PHASE 2: Generative AI Basics
+
+### Topics
+
+* What are LLMs (GPT, Gemini, Claude)
+* How text generation works (very simple)
+* Prompt Engineering basics
+* System, user, assistant roles
+
+### Live Project 1
+
+🔥 **AI Chatbot (Console)**
+
+* Use OpenAI / Gemini API
+* Ask questions, get answers
+* Prompt tuning for better replies
+
+---
+
+## 🧪 PHASE 3: Prompt Engineering (Practical)
+
+### Topics
+
+* Zero-shot, One-shot, Few-shot
+* Prompt templates
+* Controlling tone, format, style
+* Avoiding hallucinations
+
+### Live Project 2
+
+🔥 **AI Resume Generator**
+
+* Input: name, skills
+* Output: professional resume text
+
+---
+
+## 🧠 PHASE 4: Memory & Context Handling
+
+### Topics
+
+* Context window
+* Short-term vs long-term memory
+* Conversation history handling
+* Intro to embeddings (easy)
+
+### Live Project 3
+
+🔥 **Memory Chatbot**
+
+* Remembers past messages
+* Personalized responses
+
+---
+
+## 📄 PHASE 5: GenAI with Files (RAG Basics)
+
+### Topics
+
+* What is RAG (Retrieval Augmented Generation)
+* Reading PDFs / TXT files
+* Chunking data
+* Searching relevant info
+
+### Live Project 4
+
+🔥 **AI PDF Question Answer System**
+
+* Upload notes
+* Ask questions from the document
+
+---
+
+## 🧩 PHASE 6: Introduction to Agentic AI
+
+### Topics
+
+* What is **Agentic AI**
+* AI Agent vs Chatbot
+* Tools, actions, planning
+* ReAct pattern (think → act → observe)
+
+### Mini Project
+
+✅ **Task-Planner Agent**
+
+* Breaks big task into steps
+
+---
+
+## 🧠 PHASE 7: Single AI Agent (Core)
+
+### Topics
+
+* Agent loop
+* Decision making
+* Tool calling
+* Error handling
+
+### Live Project 5
+
+🔥 **AI Personal Assistant**
+
+* Can:
+
+  * Answer questions
+  * Do calculations
+  * Search information
+  * Decide which tool to use
+
+---
+
+## 🤝 PHASE 8: Multi-Agent Systems
+
+### Topics
+
+* Agent communication
+* Manager–Worker agents
+* Role-based agents
+* Coordination logic
+
+### Live Project 6
+
+🔥 **AI Team System**
+
+* Research Agent
+* Writer Agent
+* Reviewer Agent
+* Final output combined
+
+---
+
+## 🌐 PHASE 9: Agentic AI with Web & Automation
+
+### Topics
+
+* Web search agents
+* API-calling agents
+* Scheduling tasks
+* Decision-based automation
+
+### Live Project 7
+
+🔥 **AI Job Finder Agent**
+
+* Searches jobs
+* Filters by skills
+* Generates summary
+
+---
+
+## 🧠 PHASE 10: Advanced Agentic AI
+
+### Topics
+
+* Planning + execution agents
+* Self-reflection
+* Retry & improvement loops
+* Guardrails & safety
+
+### Live Project 8 (Capstone)
+
+🔥 **Autonomous AI Project Manager**
+
+* Takes goal
+* Plans tasks
+* Executes step-by-step
+* Improves output automatically
+
+---
+
+## 🏆 Final Outcome (After Completion)
+
+You will be able to:
+
+* ✅ Build **Generative AI apps**
+* ✅ Build **Autonomous AI Agents**
+* ✅ Create **real-world AI projects**
+* ✅ Understand **Agentic AI architecture**
+* ✅ Move into **AI for Robotics / Advanced AI**
+

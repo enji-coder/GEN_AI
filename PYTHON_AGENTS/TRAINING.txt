@@ -1,0 +1,56 @@
+What is AI ? 
+------------------------------
+AI = making computers behave like humans 
+
+e.g. 
+
+Calculator -> Not An AI (only fixed logics)
+Google Map -> AI (find best Route)
+ChatGpt -> AI (Understand & generate Text)
+
+Before AI - humans faces lots of problems like : 
+
+Recognizing faces 
+Understanding of languages 
+Driving a Vehicle 
+
+so, at that time writing rules for everything was impossible. 
+
+so, scientists asked : 
+
+" can we make machines that behave intelligently like human " = the answer is birth of AI 
+
+
+-----------------------------------------
+AI system can ::: 
+
+Perceive  : see, hear, Read
+reason : think logically
+Learn : improve from experience 
+decide : choose best action 
+
+-------------------------------------------
+What Makes a System “Intelligent”?
+
+=> Normal Program : 
+
+if temp > 30:
+    turn on the fan 
+
+Fixed
+No learning
+No improvement
+
+=> AI System  :: 
+
+Observe temperature
+Observe time
+Observe user behavior
+Learn patterns
+Decide when to turn ON fan
+
+This ability to adapt is intelligence.
+
+====================================================
+Core Abilities of AI
+
